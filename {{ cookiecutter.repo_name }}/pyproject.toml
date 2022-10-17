@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "brouzes cookiecutter"
+version = "0.0.0"
+description = "desc"
+authors = ["Daniel Altunay*", "Raphael Vienne*"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+
+
+[tool.poetry.group.dev.dependencies]
+flake8-black
+isort
+mypy
+pytest
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
